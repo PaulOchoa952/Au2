@@ -389,7 +389,7 @@ public class Compilador extends javax.swing.JFrame {
         gramatica.group("VALOR", "(N_ENTERO | N_DECIMAL)", true);
         gramatica.group("VALOR_CAD", "(CADENA)");
         gramatica.group("VALOR_LOG", "(LOGICO_V | LOGICO_F)");
-
+///hola perras
         /*DECLARACION DE VARIABLES*/
         gramatica.group("VARIABLE", "TIPO_DATO IDENTIFICADOR Op_Asig VALOR", true);
         gramatica.group("VARIABLE2", "TIPO_CADENA IDENTIFICADOR Op_Asig VALOR_CAD", true);
