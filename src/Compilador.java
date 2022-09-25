@@ -97,7 +97,7 @@ public class Compilador extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btnNuevo);
-        btnNuevo.setBounds(10, 20, 110, 40);
+        btnNuevo.setBounds(10, 20, 110, 39);
 
         btnAbrir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/carpeta.png"))); // NOI18N
         btnAbrir.setText("Abrir");
@@ -107,7 +107,7 @@ public class Compilador extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btnAbrir);
-        btnAbrir.setBounds(120, 20, 100, 40);
+        btnAbrir.setBounds(120, 20, 100, 39);
 
         btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/disquete.png"))); // NOI18N
         btnGuardar.setText("Guardar");
@@ -117,7 +117,7 @@ public class Compilador extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btnGuardar);
-        btnGuardar.setBounds(220, 20, 90, 40);
+        btnGuardar.setBounds(220, 20, 108, 39);
 
         btnCompilar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/compilador.png"))); // NOI18N
         btnCompilar.setText("Compilar");
@@ -127,7 +127,7 @@ public class Compilador extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btnCompilar);
-        btnCompilar.setBounds(470, 20, 120, 40);
+        btnCompilar.setBounds(470, 20, 120, 39);
 
         btnEjecutar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/corriendo.png"))); // NOI18N
         btnEjecutar.setText("Ejecutar");
@@ -147,7 +147,7 @@ public class Compilador extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btnGuardarC);
-        btnGuardarC.setBounds(340, 20, 130, 40);
+        btnGuardarC.setBounds(340, 20, 130, 39);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(6, 5, 740, 70);
@@ -176,7 +176,7 @@ public class Compilador extends javax.swing.JFrame {
         getContentPane().add(jScrollPane2);
         jScrollPane2.setBounds(10, 110, 710, 250);
 
-        btnSimbolos.setBackground(new java.awt.Color(255, 153, 0));
+        btnSimbolos.setBackground(new java.awt.Color(255, 0, 0));
         btnSimbolos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/contenido-de-la-tabla.png"))); // NOI18N
         btnSimbolos.setText("Tabla de simbolos");
         btnSimbolos.addActionListener(new java.awt.event.ActionListener() {
