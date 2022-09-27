@@ -44,7 +44,6 @@ public class Informacion extends javax.swing.JFrame {
         getContentPane().setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 12)); // NOI18N
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/virus.png"))); // NOI18N
         jLabel1.setText("KOVVID_CODE");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(20, 20, 140, 56);
@@ -61,19 +60,19 @@ public class Informacion extends javax.swing.JFrame {
 
         jLabel2.setText("ALUMNOS:");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(20, 220, 70, 16);
+        jLabel2.setBounds(20, 220, 70, 14);
 
         jLabel3.setText("PAUL ALEJANDRO OCHOA MEZA");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(20, 250, 200, 16);
+        jLabel3.setBounds(20, 250, 200, 14);
 
         jLabel4.setText("ERICK DARIO RAMIREZ REA");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(20, 270, 157, 16);
+        jLabel4.setBounds(20, 270, 137, 14);
 
         jLabel5.setText("CARLOS ANAEL OCHOA MEZA");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(20, 290, 169, 16);
+        jLabel5.setBounds(20, 290, 145, 14);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(10, 70, 440, 370);

@@ -89,7 +89,6 @@ public class Compilador extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(153, 153, 153));
         jPanel1.setLayout(null);
 
-        btnNuevo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/agregar-archivo.png"))); // NOI18N
         btnNuevo.setText("Nuevo");
         btnNuevo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -97,9 +96,8 @@ public class Compilador extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btnNuevo);
-        btnNuevo.setBounds(10, 20, 110, 39);
+        btnNuevo.setBounds(10, 20, 110, 23);
 
-        btnAbrir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/carpeta.png"))); // NOI18N
         btnAbrir.setText("Abrir");
         btnAbrir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -107,9 +105,8 @@ public class Compilador extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btnAbrir);
-        btnAbrir.setBounds(120, 20, 100, 39);
+        btnAbrir.setBounds(120, 20, 100, 23);
 
-        btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/disquete.png"))); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -117,9 +114,8 @@ public class Compilador extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btnGuardar);
-        btnGuardar.setBounds(220, 20, 108, 39);
+        btnGuardar.setBounds(220, 20, 71, 23);
 
-        btnCompilar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/compilador.png"))); // NOI18N
         btnCompilar.setText("Compilar");
         btnCompilar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -127,9 +123,8 @@ public class Compilador extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btnCompilar);
-        btnCompilar.setBounds(470, 20, 120, 39);
+        btnCompilar.setBounds(470, 20, 120, 23);
 
-        btnEjecutar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/corriendo.png"))); // NOI18N
         btnEjecutar.setText("Ejecutar");
         btnEjecutar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -139,7 +134,6 @@ public class Compilador extends javax.swing.JFrame {
         jPanel1.add(btnEjecutar);
         btnEjecutar.setBounds(590, 20, 120, 40);
 
-        btnGuardarC.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/guardar-como.png"))); // NOI18N
         btnGuardarC.setText("Guardar Como");
         btnGuardarC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,7 +141,7 @@ public class Compilador extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btnGuardarC);
-        btnGuardarC.setBounds(340, 20, 130, 39);
+        btnGuardarC.setBounds(340, 20, 130, 23);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(6, 5, 740, 70);
@@ -177,7 +171,6 @@ public class Compilador extends javax.swing.JFrame {
         jScrollPane2.setBounds(10, 110, 710, 250);
 
         btnSimbolos.setBackground(new java.awt.Color(255, 0, 0));
-        btnSimbolos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/contenido-de-la-tabla.png"))); // NOI18N
         btnSimbolos.setText("Tabla de simbolos");
         btnSimbolos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -188,7 +181,6 @@ public class Compilador extends javax.swing.JFrame {
         btnSimbolos.setBounds(770, 10, 180, 60);
 
         jLabel1.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 13)); // NOI18N
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/virus.png"))); // NOI18N
         jLabel1.setText("KOVVID_CODE");
         jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

@@ -43,9 +43,6 @@
       <SubComponents>
         <Component class="javax.swing.JButton" name="btnNuevo">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Imagenes/agregar-archivo.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Nuevo"/>
           </Properties>
           <Events>
@@ -59,9 +56,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnAbrir">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Imagenes/carpeta.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Abrir"/>
           </Properties>
           <Events>
@@ -75,9 +69,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnGuardar">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Imagenes/disquete.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Guardar"/>
           </Properties>
           <Events>
@@ -91,9 +82,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnCompilar">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Imagenes/compilador.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Compilar"/>
           </Properties>
           <Events>
@@ -107,9 +95,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnEjecutar">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Imagenes/corriendo.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Ejecutar"/>
           </Properties>
           <Events>
@@ -123,9 +108,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnGuardarC">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Imagenes/guardar-como.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Guardar Como"/>
           </Properties>
           <Events>
@@ -195,9 +177,6 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="0" red="ff" type="rgb"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Imagenes/contenido-de-la-tabla.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Tabla de simbolos"/>
       </Properties>
       <Events>
@@ -213,9 +192,6 @@
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tw Cen MT Condensed Extra Bold" size="13" style="0"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Imagenes/virus.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="KOVVID_CODE"/>
       </Properties>
