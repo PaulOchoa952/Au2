@@ -4,5 +4,4 @@ repetir(5){
 mutar(fase2);
 evaluar(fase4,2,T34);
 
-ENT &num -. 3;
-CADENA &NUMDEC -. K_CD;
+ENT &num -.  3.4;
