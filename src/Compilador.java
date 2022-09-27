@@ -383,8 +383,8 @@ public class Compilador extends javax.swing.JFrame {
         gramatica.group("VALOR_LOG", "(LOGICO_V | LOGICO_F)");
 ///hola perras
         /*DECLARACION DE VARIABLES*/
-        gramatica.group("VARIABLE", "TIPO_DATO IDENTIFICADOR Op_Asig VALOR", true);
-        gramatica.group("VARIABLE2", "TIPO_CADENA IDENTIFICADOR Op_Asig VALOR_CAD", true);
+        gramatica.group("VARIABLE", "TIPO_DATO IDENTIFICADOR Op_Asig VALOR", true,identProd);//de forma automatica la clase grammar va a guarda la produccion en el array list
+        gramatica.group("VARIABLE2", "TIPO_CADENA IDENTIFICADOR Op_Asig VALOR_CAD", true,identProd);
         gramatica.group("VARIABLE3", "TIPO_LOGICO INDETIFICADOR LOGICO_V", true);
 
         gramatica.group("VARIABLE2", "TIPO_CADENA IDENTIFICADOR CADENA", true, 40, "ERROR SINTACTICO {}: FALTA EL OPERADOR DE ASIGNACION[#,%]");
@@ -571,7 +571,29 @@ gramatica.group("FIN", "FINAL_W");
     }
 
     private void SemanticAnalisis() {
+        
+        for(Production id:identProd){
+            System.out.println(id.lexemeRank(0,-1));
+            System.out.println(id.lexicalCompRank(0,-1));
+        }
+        
+        
+        /*
+        HashMap<String,String>identDataType=new HashMap<>();
+        identDataType.put("ENT", "N_ENTERO");
+        for(Production id:identProd){
+            if(!identDataType.get(id.lexemeRank(0)).equals(id.lexicalCompRank(-1))){
+            errors.add(new ErrorLSSL(1,"error semantico():valor no compatible con el tipo de dato[#,%]",id,true));
+            }
+            else if(id.lexicalCompRank(-1).equals("N_ENTERO")&&!id.lexemeRank(-1).matches("0 | [1-9][0-9]*")) {
+                    errors.add(new ErrorLSSL(1,"error semantico():valor no es entero[#,%]",id,true));
 
+    }
+            else{
+            identificadores.put(id.lexemeRank(1),id.lexemeRank(-1));
+            }
+        }
+        */
     }
 
     private void ImprimirConsola() {
