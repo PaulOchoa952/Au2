@@ -33,7 +33,7 @@ import javax.swing.UnsupportedLookAndFeelException;
  */
 /**
  *
- * @author Carlos
+ * @author Carlos   aaaaaaaaaaaaaa
  */
 public class Compilador extends javax.swing.JFrame {
 
